@@ -1,7 +1,7 @@
 # EpitechProjects
 Projets fait pour la formation Epitech.
 
-BATTLESHIP :
+### BATTLESHIP :
 	>Projet de 1 semaine en groupe de deux, débuggage et d'ajout de fonctionalités a partir d'un projet déjà existant;
 	>Contributions:
 		Correction de l'affichage du tableau
@@ -10,7 +10,7 @@ BATTLESHIP :
 		Ajout animations et sons
 		
 
-JOHN CARPENTER CINEMAS :
+### JOHN CARPENTER CINEMAS :
 	> Projet solo de 2 semaines, conception d'une interface pour un site de cinéma:
 	> Features:
 		Recherche de films sur base de données
@@ -18,7 +18,7 @@ JOHN CARPENTER CINEMAS :
 		Historique client avec gestion d'abonnements
 		AJAX complet, fonctionne sans rechargement de page
 
-H5AI :
+### H5AI :
 	> Projet solo de 2 semaines, recréation de l'outil de gestion de fichier en ligne H5AI.
 	> Features:
 		Affichage recursif de l'arborescence du serveur
@@ -26,7 +26,7 @@ H5AI :
 		Recherche par nom pour les dossiers et fichiers
 		Gestion de tags sotckés sur base de données
 		
-TWITTER :
+### TWITTER :
 	> Projet de groupe de trois de 1 mois, recréation de Twitter.
 	> Contribution personelles :
 		Affichage dynamique des tweets envoyés et des personne suivies
@@ -36,7 +36,7 @@ TWITTER :
 		Fonction de recherche par hasthag, utilisateurs
 		Messagerie privée
 		
-MEETIC : 
+### MEETIC : 
 	>Projet solo de 2 semaines, création d'un site de rencontre
 	>Features : 
 		Création et édition de profils de recontres avec stocakge sur base de données
