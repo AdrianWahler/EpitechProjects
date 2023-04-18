@@ -1,0 +1,209 @@
+.container {
+    max-width: 150rem;
+    padding: 7rem;
+    background-color: #252525;
+}
+.cards {
+  max-width: 110rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1.5rem;
+}
+.card {
+    background: #262525;
+    color: #fffcfc;
+    padding: 6rem;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+.card-title-large {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9rem;
+    font-weight: bolder;
+    letter-spacing: 0.8rem;
+    color: #6b6b6b;
+    transform: translateX(5rem);
+    transition: transform 5s;
+}
+
+.card-title-small {
+    margin-bottom: 1rem;
+}
+.card-cta {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+}
+.card:hover .card-cta {
+    background-color: #262525;
+}
+.card:hover .card-title-large {
+    transform: translateX(-115%);
+    color: #fff;
+}
+.card.twitter:hover {
+   background-color: #1da1f2;
+}
+.card-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+}
+h3 {
+    margin-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 1%;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.img-logo img{
+    transform: translateX(5rem);
+    transition: transform 3s;
+}
+.card:hover img {
+    transition: 5s;
+    transform: translateX(1200%);
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #c4c3ca;
+	background-color: #1f2029;
+	overflow-x: hidden;
+}
+a {
+	cursor: pointer;
+  transition: all 200ms linear;
+}
+a:hover {
+	text-decoration: none;
+  color: #75c6f7;
+}
+p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+}
+h4 {
+  font-weight: 600;
+}
+h6 span{
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container2 {
+  max-width: 110rem;
+  padding: 5rem;
+}
+body{
+  background-color: #ffffff;
+}
+
+.registration-form{
+padding: 50px 0;
+}
+
+.registration-form form{
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px 70px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon{
+text-align: center;
+  background-color: #5891ff;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 50px;
+  line-height: 100px;
+}
+
+.registration-form .item{
+border-radius: 20px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+
+.registration-form .create-account{
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #5791ff;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.registration-form .social-media{
+  max-width: 600px;
+  background-color: #fff;
+  margin: auto;
+  padding: 35px 0;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #9fadca;
+  border-top: 1px solid #dee9ff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .social-icons{
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.registration-form .social-icons a{
+  font-size: 23px;
+  margin: 0 3px;
+  color: #5691ff;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 45px;
+  display: inline-block;
+  height: 45px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 45px;
+}
+
+.registration-form .social-icons a:hover{
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+  .registration-form form{
+      padding: 50px 20px;
+  }
+
+  .registration-form .form-icon{
+      width: 70px;
+      height: 70px;
+      font-size: 30px;
+      line-height: 70px;
+  }
+}

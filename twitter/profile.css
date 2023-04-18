@@ -1,0 +1,199 @@
+:root {
+    --color-secondary: rgb(113, 118, 123);
+  }
+  
+  /* reset default style */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-block: 0;
+    margin-inline: 0;
+    color: black;
+  }
+  
+  button {
+    cursor: pointer;
+    
+  }
+  
+  body {
+    background-color: #222121;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card {
+    width: 100%;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .top-navigation {
+    padding: 10px 19px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-navigation .left-arrow {
+    width: 20px;
+    height: 20px;
+    color: rgb(239, 243, 244);
+    margin-right: 35px;
+  }
+  
+  .top-navigation .name,
+  .user-detail .name {
+    font-weight: bold;
+    color: rgb(140, 142, 143);
+    font-size: 20px;
+  }
+  
+  .top-navigation .tweets,
+  .user-detail .username {
+    color: var(--color-secondary);
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  
+  .header-photo {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .header-photo img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  main {
+    padding: 12px;
+  }
+  
+  .photo-wrapper,
+  .user-detail :where(.username, .job),
+  .join-date {
+    margin-bottom: 12px;
+  }
+  
+  .photo-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photo {
+    margin-top: -49px;
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    border-radius: 133px;
+    border: 2px solid #000;
+  }
+  
+  .photo img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .btn-edit {
+    background: transparent;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 9999px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  .user-detail .job {
+    font-size: 15px;
+    color: gray;
+  }
+  
+  .user-detail .address {
+    color: var(--color-secondary);
+    font-size: 14px;
+  }
+  
+  .user-detail .address :where(.location, .website-url),
+  .join-date {
+    display: flex;
+    align-items: center;
+    color: var(--color-secondary);
+    font-size: 14px;
+  }
+  
+  .user-detail{
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 4px;
+  }
+  
+  .user-detail.website-url a {
+    color: rgb(29, 115, 240);
+    text-decoration: none;
+  }
+  
+  .user-detail {
+    text-decoration: underline;
+  }
+  
+  .followers-following {
+    display: flex;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .followers-following div:first-child {
+    margin-right: 14px;
+  }
+  
+  .followers-following span {
+    color: var(--color-secondary);
+    font-weight: 400;
+  }
+  
+  @media (min-width: 400px) {
+    .photo {
+      margin-top: -78px;
+      height: 133px;
+      width: 133px;
+      border-width: 5px;
+    }
+  
+    .user-detail .address {
+      display: flex;
+      align-items: center;
+    }
+  
+    .user-detail {
+      margin-bottom: 0;
+    }
+  
+    .user-detail{
+      margin-right: 12px;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .card {
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+
